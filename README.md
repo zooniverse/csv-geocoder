@@ -10,6 +10,16 @@ want to rename the IP column manually when you're finished; it'll be changed to
 
 ## Example usage
 
+The easiest thing to do is to run this in Docker as below, or if you want to
+run it directly install the requirements from `requirements.txt`. Either way the
+arguments are the same:
+
+```
+geocode.py INPUT_FILE OUTPUT_FILE COLUMN_NUMBER
+```
+
+Running with Docker:
+
 ```
 $ cat in.csv
 Header 1, Header 2
